@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>nutsDetect</title>
+
+	<!-- bootstrap css-->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" >
+	<!-- bootstrap-fileinput -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.0.1/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
+
+	<!-- jquery 注意顺序-->
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	<!-- bootstrap core-->
+	<script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<!-- bootstrap-fileinput-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.0.1/js/fileinput.min.js"></script>
+	<!-- bootstrap-fileinput 中文-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.0.1/js/locales/zh.js"></script>
+
+
+	<!-- my javascript code-->
+	<script src="uploadFile.js"></script>
+
+</head>
+	<body>
+		<div class="container" >
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+					<div class="jumbotron">
+						<h1>
+							螺丝拧紧检测系统
+						</h1>
+						<p>
+							使用说明:
+						</p>
+						<p>
+							点击"选取文件"上传 *.xlsx格式的原始数据后上传(单文件上限10MB)
+						</p>
+						<p>
+							等待后台返回计算结果
+						</p>
+						<p>
+							<a class="btn btn-primary btn-large" href="#">了解更多</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row clearfix">
+				<div class="col-md-12 column">
+
+					<input id="input-b1" type="file">
+
+				</div>
+			</div>
+		</div>
+
+		<!--<input type="file" id="cert" class="file" data-browse-on-zone-click="true" />-->
+		<!--<input type="button" value="upload" onclick="submit();" />-->
+
+	</body>
+</html>
