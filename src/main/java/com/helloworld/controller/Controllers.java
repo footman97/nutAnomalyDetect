@@ -38,9 +38,9 @@ public class Controllers {
         try {
 
             inputStream = multipartFile.getInputStream();
-            // 上传文件目录
-            File dir = new File("/Users/liujun/helloWorld/src/main/resources/static/files");
-            // 生成随机名字文件
+            // 上传文件目录 全路径去掉项目名
+            File dir = new File("src/main/resources/static/files");
+            // createTempFile生成 文件名+随机数的临时文件，避免冲突
             File tmpFile = File.createTempFile(filename,filename.substring(filename.lastIndexOf(".")),dir);
             FileUtils.copyInputStreamToFile(inputStream, tmpFile);
 
