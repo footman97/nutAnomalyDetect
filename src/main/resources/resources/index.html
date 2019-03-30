@@ -4,16 +4,20 @@
 	<meta charset="utf-8">
 	<title>nutsDetect</title>
 
+	<!-- jquery 注意顺序-->
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+
 	<!-- bootstrap css-->
-	<link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.css" >
+	<!-- 我的css用来调整div间距 -->
+	<link rel="stylesheet" href="./mycss.css" >
 	<!-- bootstrap-fileinput -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.0.1/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
 
-	<!-- jquery 注意顺序-->
-	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+
 	<!-- bootstrap core-->
-	<script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.js"></script>
 	<!-- bootstrap-fileinput-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.0.1/js/fileinput.min.js"></script>
 	<!-- bootstrap-fileinput 中文-->
@@ -34,66 +38,108 @@
 							螺丝拧紧检测系统
 						</h1>
 						<p>
-							使用说明:
-						</p>
-						<p>
-							点击"选取"上传 *.xlsx格式的原始数据后上传(单文件上限10MB)
-						</p>
-						<p>
-							等待后台返回计算结果
+							传统制造企业的AI赋能
 						</p>
 						<p>
 							<a class="btn btn-primary btn-large" href="#">了解更多</a>
 						</p>
 					</div>
 				</div>
-			</div>
-
-
-			<div class="row-fluid">
+				<!-- 文件上传部分-->
 				<div class="col-md-12 column">
 					<input id="input-704" type="file"  multiple>
 				</div>
+				<div class="col-md-12 column">
+					<blockquote>
+						<p>
+							点击"选取"上传 *.xlsx格式的原始数据后上传(单文件上限10MB)
+						</p>
+						<p>
+							等待后台返回计算结果
+						</p>
+					</blockquote>
+				</div>
+				<!-- 介绍各分类特点-->
+				<div class="col-md-12 column">
+					<div class="tabbable" id="tabs-1">
+						<ul class="nav nav-tabs">
+							<!-- 默认激活第一类-->
+							<li class="active">
+								<a href="#panel-1" data-toggle="tab">分类1</a>
+							</li>
+							<li>
+								<a href="#panel-2" data-toggle="tab">分类2</a>
+							</li>
+							<li>
+								<a href="#panel-3" data-toggle="tab">分类3</a>
+							</li>
+							<li>
+								<a href="#panel-4" data-toggle="tab">分类4</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="panel-1">
+
+								<div class="col-md-6 column">
+									<img src="./displayForWeb/class1.png" height="330px" alt="分类1示例图片" />
+								</div>
+								<div class="col-md-6 column text-center">
+										<p class="middle">
+											该类别的力矩-转速图像有明显的趋势，并且曲线较光滑
+										</p>
+								</div>
+
+							</div>
+							<div class="tab-pane" id="panel-2">
+
+								<div class="col-md-6 column">
+									<img src="./displayForWeb/class2.png" height="330px" alt="分类2示例图片" />
+								</div>
+								<div class="col-md-6 column text-center">
+									<p class="middle">
+										该类别的力矩-转速图像有明显的趋势，并且曲线有较小抖动
+									</p>
+								</div>
+
+							</div>
+							<div class="tab-pane" id="panel-3">
+
+								<div class="col-md-6 column">
+									<img src="./displayForWeb/class3.png" height="330px" alt="分类3示例图片" />
+								</div>
+								<div class="col-md-6 column text-center">
+									<p class="middle">
+										该类别的力矩-转速图像有一定趋势，并且曲线有较大抖动
+									</p>
+								</div>
+
+							</div>
+							<div class="tab-pane" id="panel-4">
+
+								<div class="col-md-6 column">
+									<img src="./displayForWeb/class4.png" height="330px" alt="分类4示例图片" />
+								</div>
+								<div class="col-md-6 column text-center">
+									<p class="middle">
+										该类别的力矩-转速图像无明显规律，且大部分已被传感器检测为不合格
+									</p>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 
-			<!-- 用来调整上下div的垂直距离 -->
-			<h1></h1>
-
-			<div class="row-fluid">
+			<!-- 结果显示 -->
+			<div class="row-fluid ">
 				<div class="col-md-12 column">
 
 					<div class="jumbotron">
 						<h1 class="text-center ">
-							结果显示
+							等待文件上传.....
 						</h1>
-					</div>
-				</div>
-			</div>
-
-
-			<div class="row-fluid">
-				<div class="col-md-12 column">
-					<div class="tabbable" id="tabs-137993">
-						<ul class="nav nav-tabs">
-							<li class="active">
-								<a href="#panel-453446" data-toggle="tab">Section 1</a>
-							</li>
-							<li>
-								<a href="#panel-82212" data-toggle="tab">Section 2</a>
-							</li>
-						</ul>
-						<div class="tab-content">
-							<div class="tab-pane active" id="panel-453446">
-								<p>
-									I'm in Section 1.
-								</p>
-							</div>
-							<div class="tab-pane" id="panel-82212">
-								<p>
-									Howdy, I'm in Section 2.
-								</p>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
