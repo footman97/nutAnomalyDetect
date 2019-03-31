@@ -63,6 +63,12 @@ public class Controllers {
         return json;
     }
 
+//    public boolean dealRawData(){
+//
+//        PythonInterpreter interpreter = new PythonInterpreter();
+//        interpreter.exec("print('hello')");
+//        return true;
+//    }
 }
 
 
@@ -91,5 +97,7 @@ public class Controllers {
 //        }
 //        return "上传成功!";
 //    }
+
+
 
 
