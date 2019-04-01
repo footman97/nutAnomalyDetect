@@ -41,18 +41,18 @@
 							传统制造企业的AI赋能
 						</p>
 						<p>
-							<a class="btn btn-primary btn-large" href="#">了解更多</a>
+							<a class="btn btn-primary btn-large" href="https://github.com/footman97/nutAnomalyDetect">了解更多</a>
 						</p>
 					</div>
 				</div>
 				<!-- 文件上传部分-->
 				<div class="col-md-12 column">
-					<input id="input-704" type="file"  multiple>
+					<input id="input-704" type="file" name="rawData"  multiple>
 				</div>
 				<div class="col-md-12 column">
 					<blockquote>
 						<p>
-							点击"选取"上传 *.xlsx格式的原始数据后上传(单文件上限10MB)
+							点击"选取"上传 *.xlsx格式的原始数据后上传(单个文件不超过1MB、一次不超过100个文件)
 						</p>
 						<p>
 							等待后台返回计算结果
@@ -137,8 +137,8 @@
 				<div class="col-md-12 column">
 
 					<div class="jumbotron">
-						<h1 class="text-center ">
-							等待文件上传.....
+						<h1 class="text-center " id="prompt-1">
+							等待文件上传...
 						</h1>
 					</div>
 				</div>
