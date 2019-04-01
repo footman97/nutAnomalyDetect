@@ -15,10 +15,9 @@ import java.io.File;
 import java.io.InputStream;
 import java.util.*;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStreamReader;
+
 
 @Controller
 public class Controllers {
@@ -49,10 +48,16 @@ public class Controllers {
         // 分离x-y数据
         String seperateDataDir = "src/main/resources/static/files/";
         seperateData(tempRawFile, seperateDataDir, rawDataFile.length);
-        //绘图
+        // 绘图
 
-        //取样
+        // 取样
         sampleData(seperateDataDir);
+        // 预测
+        predictModel(seperateDataDir);
+
+        // 删除临时文件
+        File static_files = new File("src/main/resources/static/files");
+        deleteAllFiles(static_files);
 
         Map<String, Object> json = new HashMap<String, Object>();
         json.put("message", "文件上传成功");
@@ -98,7 +103,52 @@ public class Controllers {
 
     }
 
-    public void
+    // 分类预测
+    public static void predictModel(String seperateDataDir){
+
+        String pSepeCode = "./src/main/python/predicted.py";
+        String modelPath = "./src/main/python/c_final.h5";
+        String sampledData = seperateDataDir + "sampleData.xlsx";
+        String tempPredict = "src/main/resources/static/";
+
+        String[] pythonData =new String[]{"python", pSepeCode, modelPath, sampledData, tempPredict};
+
+        Process pr = null;
+        try {
+            pr = Runtime.getRuntime().exec(pythonData);
+            pr.waitFor();   // 等待进程执行结束
+            System.out.println("predicted finished");
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    // 删除临时文件
+    private void deleteAllFiles(File root) {
+        File files[] = root.listFiles();
+        if (files != null)
+            for (File f : files) {
+                if (f.isDirectory()) { // 判断是否为文件夹
+                    deleteAllFiles(f);
+                    try {
+                        f.delete();
+                    } catch (Exception e) {
+                    }
+                } else {
+                    if (f.exists()) { // 判断是否存在
+                        deleteAllFiles(f);
+                        try {
+                            f.delete();
+                        } catch (Exception e) {
+                        }
+                    }
+                }
+            }
+    }
+
 
 }
 
