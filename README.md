@@ -72,7 +72,7 @@ web开发js文件会缓存，因此开发阶段需要服务器端控制强制加
 
 05/04/2019
 
-使用Bootstrap File Input的异步上传
+使用Bootstrap File Input的异步上传,回调函数正常
 
 
 

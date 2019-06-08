@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="960e9e77-7b5b-49b5-9d01-f51950f2dfff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/nutsDetect.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/display/1-flow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/display/2-idea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/display/3-feature_extract.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/display/4-cluster.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/display/5-lstm structure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/python/_noadj_c_final.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/python/c_final.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/predicted.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/predicted.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/displayForWeb/class1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/displayForWeb/class2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/displayForWeb/class3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/displayForWeb/class4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/resources/mycss.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/predicted.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/predicted.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="960e9e77-7b5b-49b5-9d01-f51950f2dfff" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +19,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="251">
-                <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+              <first_editor relative-caret-position="567">
+                <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
               </first_editor>
               <second_editor />
             </state>
@@ -129,31 +110,7 @@
               <item name="helloWorld" type="b2602c69:ProjectViewProjectNode" />
               <item name="helloWorld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="helloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="helloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="helloWorld" type="b2602c69:ProjectViewProjectNode" />
@@ -175,7 +132,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560007863131" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560008372988" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -500,12 +457,27 @@
       <workItem from="1558766838550" duration="6280000" />
       <workItem from="1559373547202" duration="332000" />
       <workItem from="1560005255935" duration="136000" />
-      <workItem from="1560005394902" duration="2367000" />
+      <workItem from="1560005394902" duration="2915000" />
     </task>
+    <task id="LOCAL-00001" summary="final ver">
+      <created>1560007991435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560007991435</updated>
+    </task>
+    <task id="LOCAL-00002" summary="final ver">
+      <created>1560008161621</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560008161621</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80343000" />
+    <option name="totallyTimeSpent" value="80891000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,8 +490,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990099" visible="true" weight="0.17596567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990099" visible="true" weight="0.1988555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -535,7 +508,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.24819277" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.24819277" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
@@ -605,6 +578,36 @@
         <option value="1" />
       </list>
     </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final ver" />
+    <option name="LAST_COMMIT_MESSAGE" value="final ver" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/files">
@@ -735,8 +738,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="251">
-            <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+          <first_editor relative-caret-position="567">
+            <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
           </first_editor>
           <second_editor />
         </state>
@@ -771,6 +774,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>bootstrap</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
