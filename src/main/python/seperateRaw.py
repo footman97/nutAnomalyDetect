@@ -31,12 +31,12 @@ def seperateData(inputRawDir, outputDir, filesNum):
     # 输出xdata ydata文件 使用pandas直接写入 ！！注意文件名相同时不会覆盖
     x_write = pd.DataFrame(xdata)
     x_writer = pd.ExcelWriter(outputDir + 'xData' + '.xlsx')
-    x_write.to_excel(x_writer,'sheet0',float_format='%.5f', index = False, header=None) # float_format 控制精度 index去掉左列索引
+    x_write.to_excel(x_writer,'sheet0',float_format='%.8f', index = False, header=None) # float_format 控制精度 index去掉左列索引
     x_writer.save()
 
     y_write = pd.DataFrame(ydata)
     y_writer = pd.ExcelWriter(outputDir + 'yData' + '.xlsx')
-    y_write.to_excel(y_writer,'sheet0',float_format='%.5f', index = False, header=None)
+    y_write.to_excel(y_writer,'sheet0',float_format='%.8f', index = False, header=None)
     y_writer.save()
 
 seperateData(sys.argv[1],sys.argv[2],sys.argv[3])

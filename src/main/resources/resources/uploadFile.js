@@ -8,7 +8,7 @@ $(document).ready(function(){
         uploadUrl:  "/upload",  //上传的地址
         minFileCount: 1,
         maxFileCount: 100,
-        uploadAsync: false, // 不使用异步上传 数组接收文件
+        uploadAsync: true, // 不使用异步上传 数组接收文件
         showUpload: true, //是否显示上传按钮
 
         showRemove : true, //显示移除按钮
@@ -24,11 +24,12 @@ $(document).ready(function(){
     // });
 
     //同步上传返回结果处理
-    $("#input-704").on("filepreupload", function (event, data, previewId, index) {
-        // var response = data.response;
-        // alert(response.message);
+    // filepreupload
+    $("#input-704").on("fileuploaded", function (event, data, previewId, index) {
+        var response = data.response;
+        alert(response.message);
 
-        $('#prompt-1').innerText("等待返回计算结果....");
+        // $('#prompt-1').innerText("计算完成");
 
     });
 

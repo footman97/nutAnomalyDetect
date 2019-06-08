@@ -11,12 +11,10 @@ import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.File;
-import java.io.InputStream;
+import java.io.*;
 import java.util.*;
 
 import java.io.File;
-import java.io.IOException;
 
 
 @Controller
@@ -24,7 +22,8 @@ public class Controllers {
 
     @ResponseBody
     @RequestMapping(value = "/upload" ,method = RequestMethod.POST)
-    public Map<String, Object> uploadFile(HttpServletRequest request,@RequestParam("rawData") MultipartFile[] rawDataFile) throws Exception {
+//    HttpServletRequest request, 参数可以省略
+    public Map<String, Object> uploadFile(@RequestParam("rawData") MultipartFile[] rawDataFile) throws Exception {
 
         // 上传文件目录 全路径去掉项目名
         String tempRawFile = "src/main/resources/static/files/tempRaw";
@@ -59,8 +58,24 @@ public class Controllers {
         File static_files = new File("src/main/resources/static/files");
         deleteAllFiles(static_files);
 
+        // 读取预测结果 txt
         Map<String, Object> json = new HashMap<String, Object>();
-        json.put("message", "文件上传成功");
+        try{
+            String res;
+            String prop = "预测类别: ";
+            FileReader fr = new FileReader("src/main/resources/static/predicted.txt");
+            BufferedReader br = new BufferedReader(fr);
+            while (null != (res = br.readLine())) {
+
+                json.put("message", prop + res);
+
+                System.out.println(res);
+            }
+
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
+
         return json;
 
     }
