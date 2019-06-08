@@ -2,23 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="960e9e77-7b5b-49b5-9d01-f51950f2dfff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/helloWorld.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/nutsDetect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/display/1-flow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/display/2-idea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/display/3-feature_extract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/display/4-cluster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/display/5-lstm structure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/_noadj_c_final.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/c_final.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/predicted.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/predicted.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/resources/displayForWeb/class1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/resources/displayForWeb/class2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/resources/displayForWeb/class3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/resources/displayForWeb/class4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/resources/mycss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/predicted.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/predicted.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/display/abnormal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/display/cluster.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/display/flow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/display/intro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/display/normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/helloworld/controller/Controllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/helloworld/controller/Controllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/python/predicted.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/predicted.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/python/seperateRaw.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/python/seperateRaw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/resources/uploadFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/resources/uploadFile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/helloWorld.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/helloworld/controller/Controllers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/helloworld/controller/Controllers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/uploadFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/uploadFile.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +38,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="198">
-                <caret line="39" column="84" selection-start-line="39" selection-start-column="84" selection-end-line="39" selection-end-column="84" />
+              <first_editor relative-caret-position="251">
+                <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -174,7 +175,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558774594498" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560007863131" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -499,12 +500,12 @@
       <workItem from="1558766838550" duration="6280000" />
       <workItem from="1559373547202" duration="332000" />
       <workItem from="1560005255935" duration="136000" />
-      <workItem from="1560005394902" duration="1712000" />
+      <workItem from="1560005394902" duration="2367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79688000" />
+    <option name="totallyTimeSpent" value="80343000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,9 +518,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990099" visible="true" weight="0.17596567" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990099" visible="true" weight="0.17596567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -535,7 +535,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.24819277" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" visible="true" weight="0.24819277" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
@@ -735,8 +735,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="198">
-            <caret line="39" column="84" selection-start-line="39" selection-start-column="84" selection-end-line="39" selection-end-column="84" />
+          <first_editor relative-caret-position="251">
+            <caret line="47" column="4" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
